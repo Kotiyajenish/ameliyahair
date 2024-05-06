@@ -1,0 +1,1440 @@
+2024-04-03T08:07:17+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => 
+                                            [surname] => 
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 100.00
+                                                            [currency_code] => EUR
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 625
+                                            [custom_id] => 625
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Yellow Blonde #00
+                                                                            [quantity] => 1
+                                                                            [sku] => 548
+                                                                            [description] => Product ID: 544. Variation ID: 548
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 625 from ameliyahair
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => https://devwp1.websiteserverhost.biz/ameliyahair/wc-api/ppcp_order_return/?order_id=625&order_key=wc_order_4yLxyYHQ74xQB&payment_method=ppcp
+                            [cancel_url] => https://devwp1.websiteserverhost.biz/ameliyahair/checkout/
+                            [brand_name] => ameliyahair
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => /purchase_units/0/shipping/address
+                            [issue] => MISSING_SHIPPING_ADDRESS
+                            [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => db50e7e796b0e
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+                            [rel] => information_link
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
+2024-04-03T08:08:02+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => 
+                                            [surname] => 
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 100.00
+                                                            [currency_code] => EUR
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 625
+                                            [custom_id] => 625
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Yellow Blonde #00
+                                                                            [quantity] => 1
+                                                                            [sku] => 548
+                                                                            [description] => Product ID: 544. Variation ID: 548
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 625 from ameliyahair
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => https://devwp1.websiteserverhost.biz/ameliyahair/wc-api/ppcp_order_return/?order_id=625&order_key=wc_order_4yLxyYHQ74xQB&payment_method=ppcp
+                            [cancel_url] => https://devwp1.websiteserverhost.biz/ameliyahair/checkout/
+                            [brand_name] => ameliyahair
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => /purchase_units/0/shipping/address
+                            [issue] => MISSING_SHIPPING_ADDRESS
+                            [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 06d6f7ceb0653
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+                            [rel] => information_link
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
+2024-04-03T08:09:34+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => 
+                                            [surname] => 
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 100.00
+                                                            [currency_code] => EUR
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 625
+                                            [custom_id] => 625
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Yellow Blonde #00
+                                                                            [quantity] => 1
+                                                                            [sku] => 548
+                                                                            [description] => Product ID: 544. Variation ID: 548
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 625 from ameliyahair
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => https://devwp1.websiteserverhost.biz/ameliyahair/wc-api/ppcp_order_return/?order_id=625&order_key=wc_order_4yLxyYHQ74xQB&payment_method=ppcp
+                            [cancel_url] => https://devwp1.websiteserverhost.biz/ameliyahair/checkout/
+                            [brand_name] => ameliyahair
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => /purchase_units/0/shipping/address
+                            [issue] => MISSING_SHIPPING_ADDRESS
+                            [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 000cb6f695d67
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+                            [rel] => information_link
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
+2024-04-03T08:13:49+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => 
+                                            [surname] => 
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 100.00
+                                                            [currency_code] => EUR
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 625
+                                            [custom_id] => 625
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Yellow Blonde #00
+                                                                            [quantity] => 1
+                                                                            [sku] => 548
+                                                                            [description] => Product ID: 544. Variation ID: 548
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 625 from ameliyahair
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => https://devwp1.websiteserverhost.biz/ameliyahair/wc-api/ppcp_order_return/?order_id=625&order_key=wc_order_4yLxyYHQ74xQB&payment_method=ppcp
+                            [cancel_url] => https://devwp1.websiteserverhost.biz/ameliyahair/checkout/
+                            [brand_name] => ameliyahair
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => /purchase_units/0/shipping/address
+                            [issue] => MISSING_SHIPPING_ADDRESS
+                            [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 1b50de35a2617
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+                            [rel] => information_link
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
+2024-04-03T08:16:49+00:00 ERROR API error: Array
+(
+    [url] => https://api-m.sandbox.paypal.com/v2/checkout/orders
+    [method] => POST
+    [http_status] => 422
+    [request] => PaymentPlugins\PayPalSDK\Order Object
+(
+    [_values:protected] => Array
+        (
+            [intent] => CAPTURE
+            [payer] => PaymentPlugins\PayPalSDK\Payer Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [name] => PaymentPlugins\PayPalSDK\Name Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [given_name] => 
+                                            [surname] => 
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [purchase_units] => PaymentPlugins\PayPalSDK\Collection Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [0] => PaymentPlugins\PayPalSDK\PurchaseUnit Object
+                                (
+                                    [_values:protected] => Array
+                                        (
+                                            [amount] => PaymentPlugins\PayPalSDK\Amount Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [value] => 100.00
+                                                            [currency_code] => EUR
+                                                            [breakdown] => PaymentPlugins\PayPalSDK\Breakdown Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [item_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [shipping] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [tax_total] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [discount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                            [handling] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 0.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [invoice_id] => 625
+                                            [custom_id] => 625
+                                            [items] => PaymentPlugins\PayPalSDK\Collection Object
+                                                (
+                                                    [_values:protected] => Array
+                                                        (
+                                                            [0] => PaymentPlugins\PayPalSDK\Item Object
+                                                                (
+                                                                    [_values:protected] => Array
+                                                                        (
+                                                                            [name] => Yellow Blonde #00
+                                                                            [quantity] => 1
+                                                                            [sku] => 548
+                                                                            [description] => Product ID: 544. Variation ID: 548
+                                                                            [unit_amount] => PaymentPlugins\PayPalSDK\Money Object
+                                                                                (
+                                                                                    [_values:protected] => Array
+                                                                                        (
+                                                                                            [currency_code] => EUR
+                                                                                            [value] => 100.00
+                                                                                        )
+
+                                                                                    [mappings:protected] => Array
+                                                                                        (
+                                                                                        )
+
+                                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                                )
+
+                                                                        )
+
+                                                                    [mappings:protected] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                                )
+
+                                                        )
+
+                                                    [mappings:protected] => Array
+                                                        (
+                                                        )
+
+                                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                                )
+
+                                            [description] => Order 625 from ameliyahair
+                                        )
+
+                                    [mappings:protected] => Array
+                                        (
+                                        )
+
+                                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                                )
+
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+            [application_context] => PaymentPlugins\PayPalSDK\OrderApplicationContext Object
+                (
+                    [_values:protected] => Array
+                        (
+                            [shipping_preference] => SET_PROVIDED_ADDRESS
+                            [return_url] => https://devwp1.websiteserverhost.biz/ameliyahair/wc-api/ppcp_order_return/?order_id=625&order_key=wc_order_4yLxyYHQ74xQB&payment_method=ppcp
+                            [cancel_url] => https://devwp1.websiteserverhost.biz/ameliyahair/checkout/
+                            [brand_name] => ameliyahair
+                            [user_action] => PAY_NOW
+                        )
+
+                    [mappings:protected] => Array
+                        (
+                        )
+
+                    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+                )
+
+        )
+
+    [mappings:protected] => Array
+        (
+        )
+
+    [index:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+    [patchRequest:PaymentPlugins\PayPalSDK\AbstractObject:private] => 
+)
+
+    [error] => Array
+        (
+            [name] => UNPROCESSABLE_ENTITY
+            [details] => Array
+                (
+                    [0] => Array
+                        (
+                            [field] => /purchase_units/0/shipping/address
+                            [issue] => MISSING_SHIPPING_ADDRESS
+                            [description] => The shipping address is required when `shipping_preference=SET_PROVIDED_ADDRESS`.
+                        )
+
+                )
+
+            [message] => The requested action could not be performed, semantically incorrect, or failed business validation.
+            [debug_id] => 1b77f957099fd
+            [links] => Array
+                (
+                    [0] => Array
+                        (
+                            [href] => https://developer.paypal.com/docs/api/orders/v2/#error-MISSING_SHIPPING_ADDRESS
+                            [rel] => information_link
+                            [method] => GET
+                        )
+
+                )
+
+        )
+
+)
